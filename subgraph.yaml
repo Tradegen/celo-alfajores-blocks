@@ -1,12 +1,12 @@
 specVersion: 0.0.2
-description: Indexing all Celo Block data
-repository: https://github.com/Ubeswap/celo-blocks
+description: Indexing all Celo Alfajores Block data
+repository: https://github.com/Tradegen/celo-alfajores-blocks
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: celo
+    network: celo-alfajores
     source:
       address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
       abi: ConverterRegistryContract

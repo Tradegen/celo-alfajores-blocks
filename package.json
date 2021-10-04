@@ -1,5 +1,5 @@
 {
-  "name": "ethereum-blocks",
+  "name": "celo-alfajores-blocks",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
